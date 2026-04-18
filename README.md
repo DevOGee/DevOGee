@@ -6,6 +6,7 @@
 # 👋 Hello, I'm Godfrey OUMA!
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=3000&color=10FF10&width=950&lines=>+Systems+Engineer+%7C+Computer+Scientist+and+Mathematical+Scientist+%7C+IT+Consultant" alt="Terminal Typing Effect" />
+
 **Bridging mathematics and technology to create innovative solutions.**
 
 I'm a Computer Scientist and Mathematical Scientist and IT Consultant with a strong passion for Open Source Software and DevOps. Currently pursuing an MSc in Computer Science, I specialize in developing robust IT solutions and infrastructure. With expertise in server administration, database management, and full-stack development, I bridge the gap between hardware and software to create efficient, scalable solutions. 
