@@ -51,11 +51,11 @@ I love turning complex mathematical logic into production-ready software. Holdin
 
 ---
 
-### 🏆 GitHub Trophies
+### 🔥 GitHub Streak
 
 <p align="left">
   <a href="https://github.com/DevOGee">
-    <img src="https://github-profile-trophy.vercel.app/?username=DevOGee&theme=radical&margin-w=15&no-bg=true&no-frame=true" alt="DevOGee's Trophies" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=DevOGee&theme=radical&hide_border=true" alt="DevOGee's GitHub Streak" />
   </a>
 </p>
 
