@@ -29,8 +29,8 @@ I love turning complex mathematical logic into production-ready software. Holdin
 
 - **Systems Engineering & DevOps:** Server administration, CI/CD, and robust IT infrastructure.
 - **Backend & Database Management:** Designing high-performance, scalable databases and APIs.
-- **Mathematical Modeling:** Leveraging maths to create intelligent applications.
-- **Educator Support:** Utilizing tools like STACK to aid computer algebra in teaching environments.
+- **LMS Architecture & E-Learning:** Advanced expertise in scalable Moodle administration, custom Moodle plugin development (PHP/JavaScript), and LMS systems integration.
+- **Computer Algebra Assessment:** Leveraging maths to implement complex STACK environments for automated mathematics teaching and grading.
 
 ---
 
@@ -44,6 +44,8 @@ I love turning complex mathematical logic into production-ready software. Holdin
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="NodeJS" /> 
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/moodle-F98012?style=for-the-badge&logo=moodle&logoColor=white" alt="Moodle" />
   <img src="https://img.shields.io/badge/STACK-005C8A?style=for-the-badge&logoColor=white" alt="STACK" />
 </div>
 
