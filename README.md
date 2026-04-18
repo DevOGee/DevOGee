@@ -49,6 +49,16 @@ I love turning complex mathematical logic into production-ready software. Holdin
 
 ---
 
+### 🏆 GitHub Trophies
+
+<p align="left">
+  <a href="https://github.com/DevOGee">
+    <img src="https://github-profile-trophy.vercel.app/?username=DevOGee&theme=radical&margin-w=15&no-bg=true&no-frame=true" alt="DevOGee's Trophies" />
+  </a>
+</p>
+
+---
+
 ### <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Desktop%20computer/3D/desktop_computer_3d.png" width="30" align="center" /> GitHub Highlights
 
 <p align="left">
@@ -69,4 +79,8 @@ If you have a product idea, need help with server management, or want to discuss
 <p align="left">
   <a href="mailto:gee.mwerevu@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/godfrey-godson"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=DevOGee&style=for-the-badge&color=00ff00&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
