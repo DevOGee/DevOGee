@@ -48,7 +48,7 @@ I love turning complex mathematical logic into production-ready software. Holdin
 
 ---
 
-### 📊 GitHub Highlights
+### <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Desktop%20computer/3D/desktop_computer_3d.png" width="30" align="center" /> GitHub Highlights
 
 <p align="left">
   <a href="https://github.com/DevOGee">
