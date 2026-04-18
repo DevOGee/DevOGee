@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="250" viewBox="0 0 800 250">
+  <defs>
+    <!-- Diamonds & Stars -->
+    <polygon id="d" points="0,-6 4,0 0,6 -4,0" />
+    <polygon id="star" points="0,-4 1,-1 4,0 1,1 0,4 -1,1 -4,0 -1,-1" />
+
+    <style>
+      /* Neon filters via CSS drop-shadow */
+      .n-cyan { fill: #00ffff; filter: drop-shadow(0 0 5px #0ff) drop-shadow(0 0 10px #0ff); }
+      .n-pink { fill: #ff00ff; filter: drop-shadow(0 0 5px #f0f) drop-shadow(0 0 10px #f0f); }
+      .n-blue { fill: #0088ff; filter: drop-shadow(0 0 5px #08f) drop-shadow(0 0 10px #08f); }
+
+      /* Rotation keyframes */
+      @keyframes r1 { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      @keyframes r2 { 0% { transform: rotate(0deg); } 100% { transform: rotate(-360deg); } }
+      @keyframes pulse { 0%, 100% { transform: scale(1); opacity: 0.8; filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 15px #0ff); } 50% { transform: scale(1.4); opacity: 1; filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 30px #f0f); } }
+
+      /* Orbital classes */
+      .o1 { animation: r1 12s linear infinite; transform-origin: 400px 125px; }
+      .o2 { animation: r2 18s linear infinite; transform-origin: 400px 125px; }
+      .o3 { animation: r1 24s linear infinite; transform-origin: 400px 125px; }
+      .o4 { animation: r2 35s linear infinite; transform-origin: 400px 125px; }
+      
+      .core { animation: pulse 3s ease-in-out infinite; transform-origin: 400px 125px; }
+    </style>
+  </defs>
+
+  <!-- Transparent Background (Adopts GitHub theme natively) -->
+  <rect width="800" height="250" fill="transparent" />
+
+  <!-- Outer Ring (o4) -->
+  <g class="o4">
+    <use href="#star" x="650" y="125" class="n-blue" />
+    <use href="#star" x="150" y="125" class="n-blue" />
+    <use href="#star" x="400" y="375" class="n-blue" />
+    <use href="#star" x="400" y="-125" class="n-blue" />
+    <use href="#star" x="576" y="301" class="n-blue" />
+    <use href="#star" x="224" y="-51" class="n-blue" />
+    <use href="#star" x="224" y="301" class="n-blue" />
+    <use href="#star" x="576" y="-51" class="n-blue" />
+  </g>
+
+  <!-- Mid Ring (o3) -->
+  <g class="o3">
+    <use href="#d" x="550" y="125" class="n-cyan" />
+    <use href="#d" x="250" y="125" class="n-cyan" />
+    <use href="#d" x="400" y="275" class="n-cyan" />
+    <use href="#d" x="400" y="-25" class="n-cyan" />
+    <use href="#d" x="506" y="231" class="n-cyan" />
+    <use href="#d" x="294" y="19" class="n-cyan" />
+    <use href="#d" x="294" y="231" class="n-cyan" />
+    <use href="#d" x="506" y="19" class="n-cyan" />
+  </g>
+
+  <!-- Inner Ring (o2) -->
+  <g class="o2">
+    <use href="#star" x="480" y="125" class="n-pink" />
+    <use href="#star" x="320" y="125" class="n-pink" />
+    <use href="#star" x="400" y="205" class="n-pink" />
+    <use href="#star" x="400" y="45" class="n-pink" />
+    <use href="#star" x="456" y="181" class="n-pink" />
+    <use href="#star" x="344" y="69" class="n-pink" />
+    <use href="#star" x="344" y="181" class="n-pink" />
+    <use href="#star" x="456" y="69" class="n-pink" />
+  </g>
+
+  <!-- Core Layer (o1) -->
+  <g class="o1">
+    <use href="#d" x="430" y="125" class="n-cyan" />
+    <use href="#d" x="370" y="125" class="n-cyan" />
+    <use href="#d" x="400" y="155" class="n-cyan" />
+    <use href="#d" x="400" y="95" class="n-cyan" />
+  </g>
+
+  <!-- Central Pulsing Core -->
+  <circle class="core" cx="400" cy="125" r="8" fill="#ffffff" />
+</svg>
